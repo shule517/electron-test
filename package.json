@@ -1,0 +1,23 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc src/index.ts --outDir dist --sourceMap --noImplicitAny --watch",
+    "start": "electron ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shule517/electron-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shule517/electron-test/issues"
+  },
+  "homepage": "https://github.com/shule517/electron-test#readme",
+  "devDependencies": {
+    "electron": "^1.4.3"
+  }
+}
