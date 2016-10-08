@@ -5,7 +5,7 @@
             "name": "Electron Debug",
             "type": "node",
             "stopOnEntry": false,
-            "program": "${workspaceRoot}/dist/index.js",
+            "program": "${workspaceRoot}/src/index.ts",
             "args": [],
             "cwd": "${workspaceRoot}",
             "preLaunchTask": null,
@@ -15,8 +15,8 @@
                 "NODE_ENV": "development"
             },
             "console": "internalConsole",
-            "sourceMaps": false,
-            "outDir": null
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/dist"
         }
     ]
 }
