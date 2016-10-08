@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Electron Debug",
+            "type": "node",
+            "stopOnEntry": false,
+            "program": "${workspaceRoot}/dist/index.js",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": "S:\\dev\\git\\electron-test\\node_modules\\electron\\dist\\electron.exe",
+            "runtimeArgs": [],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": false,
+            "outDir": null
+        }
+    ]
+}
